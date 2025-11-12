@@ -1,0 +1,18 @@
+# Datos locales (evita subir CSVs pesados y con licencias)
+data/
+!data/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# SO/IDE
+.DS_Store
+.idea/
+.vscode/
+.env
+
